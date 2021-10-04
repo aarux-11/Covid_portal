@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(5, 5, 3);
+}
+
+
+
+#header{
+    color: rgb(235, 225, 225);
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Impact, Charcoal, 'Lucida Sans';
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 1.2px;
+    font-weight: 10;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+
+}
+
+.nav{
+    /* background-color: antiquewhite; */
+    margin: 0px;
+    height: 35px;
+}
+
+.navin{
+    padding: 10px;
+}
+
+
+.itemsnav{
+    display: inline;
+    align-items: center;
+    margin-left: 130px;
+    font-family: "Impact", Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 1.2px;
+    font-weight: 1;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.itemsnav:hover, a:hover{
+    color:rgba(69, 173, 165, 0.849);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.row{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.col, .first{
+    /* text */
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    /* color: #000000; */
+    font-weight: 20;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin: 30px 30px 0px 150px;
+    text-align: center;
+}
+
+.first{
+    margin-right: 80px;
+}
+
+.col1{
+    /* img */
+    /* border: white solid 2px; */
+    margin: 80px 100px 10px 0px;
+}
+
+.col2{
+    margin: 100px 30px 10px 100px;
+}
+
+.sec{
+    align-items: center;
+}
+
+#forms{
+    
+    margin-left: 0px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+label{
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input{
+    color:black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
